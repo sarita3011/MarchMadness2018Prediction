@@ -1,7 +1,7 @@
-##########kaggle submiddion
+##########kaggle submission
 rm(list=ls())
 library(tidyverse)
-setwd("C:/Users/Kamal/Desktop/Kaggle_NCAA")
+setwd("C:/Users/Sarita/Desktop/Kaggle_NCAA")
 a<-read.csv("NCAATourneyDetailedResults.csv")
 seed<-read.csv("NCAATourneySeeds.csv")
 seed$Seed<-as.numeric(substr(as.character(seed$Seed),2,3))
